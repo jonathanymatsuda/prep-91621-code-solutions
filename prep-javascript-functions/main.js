@@ -51,3 +51,10 @@ function getFullName(firstName, lastName) {
 }
 
 getFullName('Juan', 'Ramirez');
+
+function cube(number) {
+  return Math.pow(number, 3);
+}
+
+var cubeResult = cube(5);
+console.log('cube exercise', cubeResult);
