@@ -30,4 +30,11 @@ function multiplyAndDivideBy5(num1, num2) {
 }
 
 var multiplyAndDividebBy5Result = multiplyAndDivideBy5(35, 10);
-console.log('multipleAndDivideBy5 Exercise', multiplyAndDividebBy5Result);
+console.log('multiplyAndDivideBy5 Exercise', multiplyAndDividebBy5Result);
+
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+
+var subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
+console.log('subtractTwoNumbersResult Exercise', subtractTwoNumbersResult);
