@@ -11,3 +11,9 @@ function convertHoursToMinutes(hours) {
 
 var convertHoursToMinutesResult = convertHoursToMinutes(2);
 console.log('convertHoursToMinutes Exercise:', convertHoursToMinutesResult);
+
+function getGreeting(name) {
+  console.log('getGreeting Exercise: ' + 'Hello ' + name + '!');
+}
+
+getGreeting('World');
